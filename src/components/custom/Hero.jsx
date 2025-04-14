@@ -4,7 +4,6 @@ import { Search, Globe, BarChart2, BookOpen, TrendingUp } from "lucide-react";
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
 
-
 export default function Hero() {
   const [searchQuery, setSearchQuery] = useState("");
   const [rotatingText, setRotatingText] = useState("diverse perspectives");
@@ -342,10 +341,9 @@ export default function Hero() {
           <h2 className="text-2xl md:text-3xl font-bold mb-6">
             Experience news from every angle 📐
           </h2>
-          <Link to="/explore">
+          <Link to="/Ai-summary">
             <Button className="px-3 py-1 bg-blue-800 bg-opacity-40 hover:bg-blue-700 rounded-full text-sm">
               Get Started Now 🚀
-              
             </Button>
           </Link>
         </motion.div>

@@ -4,15 +4,15 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-200 py-10 ">
+    <footer className="bg-gray-800  py-10 ">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Newspaper className="h-6 w-6 text-blue-500" />
               <h2 className="text-xl font-bold">
-                <span className="text-blue-500">News</span>
-                <span className="text-red-500">Mania</span>
+                <span className="text-blue-600">News</span>
+                <span className="text-red-600">Mania</span>
               </h2>
             </div>
             <p className="text-gray-400 text-sm mb-4">
@@ -53,7 +53,7 @@ export default function Footer() {
               <li>
                 <a
                   href="/categories/political"
-                  className="text-gray-400 hover:text-blue-500 transition-colors"
+                  className="text-gray-400 hover:text-green-600 transition-colors"
                 >
                   Political
                 </a>
