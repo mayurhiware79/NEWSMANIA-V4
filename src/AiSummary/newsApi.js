@@ -1,4 +1,4 @@
-const API_KEY = "ed7b24b1b6624297bd2835652a553e1c";
+const API_KEY = "import.meta.env.NEWS_API_KEY";
 const BASE_URL = "https://newsapi.org/v2/everything?q=";
 
 export const fetchNews = async (query) => {
@@ -20,3 +20,5 @@ export const fetchNews = async (query) => {
     return [];
   }
 };
+
+// ed7b24b1b6624297bd2835652a553e1c
